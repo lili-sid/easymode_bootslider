@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config>
+	<menu>
+		<bootslider module="bootslider">
+			<title>Bootstrap Slider</title>
+			<sort_order>71</sort_order>
+			<children>
+				<items module="bootslider">
+					<title>Manage Banners</title>
+					<sort_order>0</sort_order>
+					<action>bootslider/adminhtml_bootslider</action>
+				</items>
+			</children>
+		</bootslider>
+	</menu>
+	<acl>
+		<recources>
+			<all>
+				<title>Allow Everything</title>
+			</all>
+			<admin>
+				<children>
+					<EasyMode_BootSlider>
+						<title>BootSlider Module</title>
+						<sort_order>10</sort_order>
+					</EasyMode_BootSlider>
+					<system>
+						<children>
+							<config>
+								<children>
+									<bootslider translate="title" module="bootslider">
+										<title>Bootstrap Slider Settings</title>
+										<sort_order>50</sort_order>
+									</bootslider>
+								</children>
+							</config>
+						</children>
+					</system>
+				</children>
+			</admin>
+		</recources>
+	</acl>
+</config>
