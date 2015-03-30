@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    </default>
+    <bootslideradmin_adminhtml_bootslider_index>
+        <reference name="content">
+            <block type="bootslider/adminhtml_bootslider" name="bootslider" />
+        </reference>
+    </bootslideradmin_adminhtml_bootslider_index>
+</layout> 
